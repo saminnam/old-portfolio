@@ -1,0 +1,41 @@
+.project > img 
+{
+    width: 300px;
+    height: 179px;
+}
+
+.project
+{
+    width: 300px;
+    height: 179px;
+    margin: 15px;
+    transition: transform 100ms ease-in;
+}
+
+.project:hover
+{
+    color: #fff;
+    /* background: repeating-linear-gradient(45deg, red, yellow 10%, green 20%); */
+    /* background: linear-gradient(to right, red 0%, yellow 50%, green 100%); */
+    background: linear-gradient(45deg, blue, green);
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project__content
+{
+    padding: 10px;
+}
+
+.project__content > h4
+{
+    padding-bottom: 5px;
+}
+
+.project__content > p 
+{
+    font-style: 15px;
+}

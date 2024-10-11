@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.experience
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #fff;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.experience > p
+{
+    font-family: "Jose Sans",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
